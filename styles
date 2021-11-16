@@ -1,0 +1,83 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    padding: 38px;
+    margin-top: -45px;
+}
+
+.logo-holder {  
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo img {
+
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}         
+
+u1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+li:hover {
+    border-bottom: 1px solid black;
+}
+
+a {
+    display: inline-block;
+    color: #8e8e8e;
+    text-decoration: none;
+    transition: color 0.5s;
+    padding: 15px;
+}
+
+a:hover {
+    color: black;
+}
+
+.check-rates-link {
+    font-size: 20px;
+    color:black;
+    text-transform: uppercase;
+    border: 1px solid #8e8e8e;
+
+}
+
+.check-rates-link:hover {
+    color: #8e8e8e;
+    transition: border 1s;
+}
+
+.home-banner {
+    display: flex;
+}
+
+.home-banner img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
